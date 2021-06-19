@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Mycontroller {
     @GetMapping("/hello")
     public String getfirstoutput(){
-        return "my first microservice project.. I did it!";
+        return "my first microservice project.. I did it really good!";
     }
     @GetMapping("/hi")
     public String getresult(){
