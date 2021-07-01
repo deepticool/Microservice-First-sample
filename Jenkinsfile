@@ -5,7 +5,7 @@ pipeline {
         stage('Deepti Build') {
             steps {
                 echo 'Deepti Building..'
-                echo "${package type}
+                echo "${packagetype}
             }
         }
         stage('Deepti Test') {
