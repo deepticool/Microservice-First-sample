@@ -1,5 +1,5 @@
 pipeline {
-    agent jenkinsTeam1
+    agent { label 'jenkinsTeam1'}
 
     stages {
         stage('Deepti Build') {
