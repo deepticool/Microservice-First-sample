@@ -10,8 +10,8 @@ pipeline {
         }
         stage('Deepti Test') {
             steps {
-                echo 'Testing1..'
-                echo "${params.runningtime}"
+                echo 'Testing1..at particular time'
+                echo "I know time is : ${params.runningtime}"
             }
         }
         stage('Deepti Deploy1') {
