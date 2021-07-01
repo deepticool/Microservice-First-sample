@@ -1,10 +1,11 @@
 pipeline {
-    agent { label 'jenkinsTeam1'}
+    agent any
 
     stages {
         stage('Deepti Build') {
             steps {
                 echo 'Deepti Building..'
+                eco "${package type}
             }
         }
         stage('Deepti Test') {
