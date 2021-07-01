@@ -11,6 +11,7 @@ pipeline {
         stage('Deepti Test') {
             steps {
                 echo 'Testing1..'
+                echo "${params.runningtime}"
             }
         }
         stage('Deepti Deploy1') {
